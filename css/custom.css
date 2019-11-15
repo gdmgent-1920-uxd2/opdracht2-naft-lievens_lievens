@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.blue {
+    background: blue;
+}
+
+/* footer
+---------------------- */
+
+
+.footer-copyright {
+    background-color: rgba(0,0,0,0.2) ;
+    color: white;
+    font-size: 0.7rem;
+}
