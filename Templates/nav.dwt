@@ -34,6 +34,27 @@
 <!-- TemplateBeginEditable name="body" -->
 <title>Naamloos document</title>
 <!-- TemplateEndEditable -->
+	<footer>
+		<div class="card-body">
+    	<h5 class="card-title col-12">Blijf op de hoogte van opkomende optredens !</h5>
+<form>
+	<div class="form-row">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Familienaam</label>
+    <input type="email" class="form-control" id="familienaam" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Voornaam</label>
+    <input type="password" class="form-control" id="voornaam">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">E-mailadres</label>
+    <input type="password" class="form-control" id="mail">
+  </div>
+	</div>
+</form>
+		</div>
+	</footer>
 <script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap-4.3.1.js"></script>
