@@ -18,3 +18,19 @@ body{
     color: white;
     font-size: 0.7rem;
 }
+
+.container_borderleft{
+	background-color: rgba(41,41,41,1.00);
+	color: rgba(255,255,255,1);
+	padding: 20px;
+	margin:40px;
+	border-left: solid 10px #FF0067;
+}
+
+.container_bordertop{
+	background-color: rgba(41,41,41,1.00);
+	color: rgba(255,255,255,1);
+	padding: 20px;
+	margin:40px;
+	border-top: solid 10px #FF6B00;
+}
