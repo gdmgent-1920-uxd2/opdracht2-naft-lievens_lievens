@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body{
+.body{
 	background-color: #2B2B2B;
 }
 
@@ -12,7 +12,6 @@ body{
 /* footer
 ---------------------- */
 
-
 .footer-copyright {
     background-color: rgba(0,0,0,0.2) ;
     color: white;
@@ -20,7 +19,7 @@ body{
 }
 
 .container_borderleft{
-	background-color: rgba(41,41,41,1.00);
+	background-color: #3B3B3B;
 	color: rgba(255,255,255,1);
 	padding: 20px;
 	margin:40px;
@@ -28,9 +27,32 @@ body{
 }
 
 .container_bordertop{
-	background-color: rgba(41,41,41,1.00);
+	background-color: #3B3B3B;
 	color: rgba(255,255,255,1);
 	padding: 20px;
 	margin:40px;
 	border-top: solid 10px #FF6B00;
+}
+
+.member{
+	border-top: solid 10px #FF6B00;
+}
+.titel{
+}
+.titel1{
+	font-family: Acumin Pro SemiCondensed;
+	font-size: 35px
+}
+.titel2{
+	font-family: Acumin Pro SemiCondensed;
+	font-size: 40px;
+	letter-spacing: -3px;
+	color: #FF0067
+}
+
+.tekst{
+	font-family: Corbel;
+	font-size: 17px;
+	color: white;
+	font-weight: lighter
 }
