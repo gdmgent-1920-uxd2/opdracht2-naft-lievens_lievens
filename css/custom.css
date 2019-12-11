@@ -18,24 +18,63 @@
     font-size: 0.7rem;
 }
 
+footer{
+	color: white;
+}
+form-control{
+	background-color: #343434
+}
+
+.form-control{
+	background-color: #343434
+}
+/*body*/
+.coming_soon{
+	background-color: #FED800;
+	color: #2A2A2A;
+	padding: 10px;
+
+}
+.btn{
+	margin-top: 20px
+}
+
 .container_borderleft{
 	background-color: #3B3B3B;
 	color: rgba(255,255,255,1);
 	padding: 20px;
 	margin:40px;
-	border-left: solid 10px #FF0067;
+	border-left: solid 8px #FF0067;
+}
+.container_borderleft p{
+	margin-top: 20px
 }
 
+.container_borderleft_blue{
+	background-color: #3B3B3B;
+	color: rgba(255,255,255,1);
+	padding: 20px;
+	margin:40px;
+	border-left: solid 8px #2C89E4;
+}
+
+.container_borderleft_lichtroos{
+	background-color: #3B3B3B;
+	color: rgba(255,255,255,1);
+	padding: 20px;
+	margin:40px;
+	border-left: solid 8px #DC8873;
+}
 .container_bordertop{
 	background-color: #3B3B3B;
 	color: rgba(255,255,255,1);
 	padding: 20px;
 	margin:40px;
-	border-top: solid 10px #FF6B00;
+	border-top: solid 8px #FED800;
 }
 
 .member{
-	border-top: solid 10px #FF6B00;
+	border-top: solid 8px #FED800;
 }
 .titel{
 }
@@ -43,11 +82,23 @@
 	font-family: Acumin Pro SemiCondensed;
 	font-size: 35px
 }
-.titel2{
+.titel_roos{
 	font-family: Acumin Pro SemiCondensed;
 	font-size: 40px;
 	letter-spacing: -3px;
 	color: #FF0067
+}
+.titel_blauw{
+	font-family: Acumin Pro SemiCondensed;
+	font-size: 40px;
+	letter-spacing: -3px;
+	color: #2C89E4
+}
+.titel_geel{
+	font-family: Acumin Pro SemiCondensed;
+	font-size: 40px;
+	letter-spacing: -3px;
+	color: #FED800
 }
 
 .tekst{
@@ -55,4 +106,8 @@
 	font-size: 17px;
 	color: white;
 	font-weight: lighter
+}
+
+.naam{
+	color:#FFFFFF
 }
