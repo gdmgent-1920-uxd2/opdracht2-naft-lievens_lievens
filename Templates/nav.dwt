@@ -12,7 +12,7 @@
 </head>
 	
 <body class="body">
-	<img scr="../images/logo.png" alt="logo">
+<img src="../images/logo.png" width="260px" height="106px" alt="logo"/>
 <nav class="navbar navbar-expand-lg">
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 	    <ul class="navbar-nav mr-auto">
