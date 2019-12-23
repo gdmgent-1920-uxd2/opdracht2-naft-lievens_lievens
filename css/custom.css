@@ -135,7 +135,8 @@ form-control{
 	font-family: Acumin Pro SemiCondensed;
 	font-size: 40px;
 	letter-spacing: -3px;
-	color: #FED800
+	color: #FED800;
+	margin: 0
 }
 
 .tekst{
@@ -147,7 +148,9 @@ form-control{
 }
 
 .naam{
-	color:#FFFFFF
+	color:#FFFFFF;
+	font-family: Acumin Pro SemiCondensed;
+	margin-top: 10px
 }
 .album{
 	margin: auto;
@@ -167,4 +170,83 @@ form-control{
 .container_borderleft_blue div{
 	padding: 20px;
 	margin: 20px;
+}
+
+/*responsive*/
+@media only screen and (max-width: 575.98px){
+.titel1{
+	font-size: 20px;
+	margin: 0
+}
+.titel_roos{
+	font-size: 25px;
+}
+.img_index{
+	width: 200px
+}
+.bynaft{
+	font-size: 25px
+	}
+.album_index{
+	width: 100px
+	}
+	.form{
+		margin: 0;
+		padding: 0;
+		width: 200px
+	}
+	.card-title{
+		font-size: 18px
+	}
+	.logo{
+		width: 212px;
+		height: 80px;
+	}
+	.container_borderleft{
+		width: 400px;
+		margin: auto;
+		padding: auto;
+	}
+	.nav-link{
+		font-size: 15px;
+		margin: 0;
+		padding: 0
+	}
+	.navbar{
+		display: flex;
+		margin-left: 20px
+	}
+	.album{
+		width: 300px
+	}
+	.titel_about{
+		font-size: 20px
+	}
+	.tekst{
+		font-size: 13px
+	}
+	.tuned{
+		font-size: 20px;
+		margin-top: 25px;
+		margin-bottom: 20px
+	}
+	.titel2{
+		font-size: 20px
+	}
+	.locatie{
+		font-size: 14px;
+		height: 20px
+	}
+	.container_bordertop{
+		margin: 0
+	}
+	.naam{
+		font-size: 15px
+	}
+	.titel_geel{
+		font-size: 22px
+	}
+	.titel_blauw{
+		letter-spacing: -1px
+	}
 }
