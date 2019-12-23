@@ -11,6 +11,9 @@
 
 /* nav
 ---------------------- */
+.nav-link:hover{
+	color: blue
+}
 .nav-link{
 	color: white;
 	font-family: Acumin Pro SemiCondensed;
@@ -23,7 +26,13 @@
 .nav-link :active{
 	color: orangered
 }
-
+.logo{
+	margin-top: 40px;
+	align-content: center
+}
+.nav-item :active{
+	color: blue
+}
 /* footer
 ---------------------- */
 
@@ -32,15 +41,15 @@
     color: white;
     font-size: 0.7rem;
 }
-
 footer{
 	color: white;
+	margin-top: 70px
 }
 form-control{
 	background-color: #343434
 }
 .form{
-	padding-left: 500px
+	padding-left: 450px
 }
 
 .form-control{
@@ -50,6 +59,9 @@ form-control{
 .card-title{
 	text-align: center;
 	margin: auto
+}
+.form-group{
+	padding: 10px
 }
 /*body*/
 .coming_soon{
